@@ -10,7 +10,7 @@ packaging
 protobuf
 pyparsing
 six
-tensorflow:latest
+latest-tensorflow
 Werkzeug
 scipy==1.1.0
 Pillow
