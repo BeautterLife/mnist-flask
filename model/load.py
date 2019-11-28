@@ -1,12 +1,11 @@
 import numpy as np
-import keras.models
+import tensorflow.keras.models
 from scipy.misc import imread, imresize,imshow
 import tensorflow as tf
 
-from keras.models import Sequential
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPooling2D
 
 def init():
     num_classes = 10
