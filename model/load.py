@@ -1,5 +1,8 @@
 import numpy as np
 import tensorflow.keras.models
+import tensorflow.keras.layers
+import tensorflow.keras.losses
+import tensorflow.keras.optimizers
 from scipy.misc import imread, imresize,imshow
 import tensorflow as tf
 
